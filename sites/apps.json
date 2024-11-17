@@ -17,5 +17,15 @@
         "required": [],
         "idx": 2,
         "version": "15.36.3"
+    },
+    "deltacables": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "14867995b778434e20ae5e56ab40bc33f8f63012",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
     }
 }

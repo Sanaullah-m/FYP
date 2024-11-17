@@ -3,7 +3,7 @@
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:attribute_name",
- "creation": "2014-09-26 03:49:54.899170",
+ "creation": "2024-10-13 03:55:18.682382",
  "doctype": "DocType",
  "document_type": "Setup",
  "engine": "InnoDB",
@@ -75,10 +75,11 @@
  "icon": "fa fa-edit",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-10-02 12:03:02.359202",
+ "modified": "2024-10-13 15:57:55.880631",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Item Attribute",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -93,5 +94,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

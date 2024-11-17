@@ -15,7 +15,7 @@ class ItemVariantAttribute(Document):
 		from frappe.types import DF
 
 		attribute: DF.Link
-		attribute_value: DF.Data | None
+		attribute_value: DF.Data
 		from_range: DF.Float
 		increment: DF.Float
 		numeric_values: DF.Check

@@ -239,6 +239,7 @@
    "link_to": "Work Order Consumed Materials",
    "link_type": "Report",
    "onboard": 0,
+   "report_ref_doctype": "Work Order",
    "type": "Link"
   },
   {
@@ -316,7 +317,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-01-30 21:49:58.577218",
+ "modified": "2024-11-06 03:57:11.698663",
  "modified_by": "Administrator",
  "module": "Manufacturing",
  "name": "Manufacturing",
@@ -396,6 +397,18 @@
    "label": "Production Planning Report",
    "link_to": "Production Planning Report",
    "type": "Report"
+  },
+  {
+   "doc_view": "New",
+   "label": "Create Production Order",
+   "link_to": "Custom Production Order",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Production Order List",
+   "link_to": "Custom Production Order",
+   "type": "DocType"
   }
  ],
  "title": "Manufacturing"

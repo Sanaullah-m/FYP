@@ -56,6 +56,7 @@ class SalesOrderItem(Document):
 		net_amount: DF.Currency
 		net_rate: DF.Currency
 		ordered_qty: DF.Float
+		packaging: DF.Link
 		page_break: DF.Check
 		parent: DF.Data
 		parentfield: DF.Data
